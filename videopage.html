@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube</title>
+</head>
+<body>
+
+
+
+<!-- HEADER -->
+
+<header class="flex-box">
+    <div class="left-part flex-box">
+        <i class="fas fa-bars" id="menuBtn"></i>
+        <i class="fab fa-youtube"><span>YouTube</span></i>
+    </div>
+
+    <div class="center-part flex-box">
+        <div class="search-bar flex-box">
+    <input type="text" placeholder="search">
+    <button class="search-btn"><i class="fa fa-search"></i></button>
+</div>
+    <i class="fas fa-microphone mic-icon"></i>
+</div>
+<div class="right-part flex-box">
+    <i class="fas fa-video"></i>
+    <i class="fas fa-th"></i>
+    <i class="fas fa-bell"></i>
+    <i class="fas fa-user"></i>
+</div>
+
+</header>
+
+
+<!--  SIDEBAR -->
+
+<div class="side-bar" id="sideBar" >
+    <ul>
+      <a href="index.html"> <li class="menu-item"><i class="fas fa-home"></i>Home</li></a>
+       <li class="menu-item"><i class="fas fa-compass"></i>Explore</li>
+       <li class="menu-item"><i class="fas fa-play"></i>Subscription</li>
+       <hr>
+       <li class="menu-item"><i class="fas fa-play-circle"></i>Library</li>
+       <li class="menu-item"><i class="fas fa-history"></i>History</li>
+       <li class="menu-item"><i class="fas fa-music"></i>Music</li>
+       <li class="menu-item"><i class="fas fa-trophy"></i>Sports</li>
+       <li class="menu-item"><i class="fas fa-gamepad"></i>Gaming</li>
+      
+       <li class="menu-item"><i class="fas fa-newspaper"></i>News</li>
+      <hr>
+       <li class="menu-item"><i class="fas fa-cog"></i>Settings</li>
+<li class="menu-item"><i class="fas fa-flag"></i>Report History</li>
+<li class="menu-item"><i class="fas fa-question-circle"></i>Help</li>
+<li class="menu-item"><i class="fas fa-exclamation-circle"></i>Send Feedback</li>
+
+
+
+    </ul>
+
+</div>
+
+<!-- page content -->
+<div class=" videos-container  " id="videoContainer">
+    <div class="two-parts for-video-page">
+        <div class="running-video ">
+<video src="videos/video1.mp4" autoplay controls> </video>
+
+<h2>Beautiful Sea Shore</h2>
+  
+<hr>
+<div class="youtuber">
+    <img src="images/user/user6.png">
+    <div>
+        
+        <p>Abdul Wasay</p> 
+        <span>24K Subscriber</span>
+        <button >Subscribe</button>
+     
+    </div>
+
+  
+    <div class="video-information">
+       
+    <div class="buttons">
+        <i style="background: rgb(235, 229, 229); border-radius: 20px; padding: 10px;" class="far fa-thumbs-up" ><span>2.1K</span></i>
+        <i  style="background: rgb(235, 229, 229); border-radius: 20px; padding: 10px;" class="far fa-thumbs-down"><span>DISLIKE</span></i>
+        <i  style="background: rgb(235, 229, 229); border-radius: 20px; padding: 10px;" class="fas fa-share"><span>SHARE</span></i>
+        <i  style="background: rgb(235, 229, 229); border-radius: 20px; padding: 10px;" class="far fa-plus-square"><span>SAVE</span></i>
+        <i   style="background: rgb(235, 229, 229); border-radius: 20px; padding: 10px;" class="fas fa-ellipsis-v"></i>
+    </div>
+    </div>      
+</div>
+<div class="des_container">
+<div class="video-description">
+   <b> <p>2,1223 Views . 12 August 2023</p></b>
+    <p>This is a regular Video Descriptoin<br/> Check out links in comments</p>
+</div>
+</div>
+<hr>
+<div class="video-comments">
+    <span>64 Comments</span>
+    <i class="fas fa-bars"><span>Sort By</span></i>
+</div>
+<div class="add-comments">
+    <img src="images/user/user1.png">
+    <input type="text" placeholder="Add a Public Comment">  
+
+</div>
+<div class="other-comments">
+    <img src="images/user/user2.png">
+    <div>
+        <h3>Sameen <span> 2 Days ago</span></h3>
+    <p>
+        Nice Video
+    </p>
+    <div class="react-comments">
+        <i class="far fa-thumbs-up" ></i>
+        <i class="far fa-thumbs-down"></i>
+        <span>REPLY</span>
+    </div>
+    </div>
+</div>
+
+<div class="other-comments">
+    <img src="images/user/user3.png">
+    <div>
+        <h3>Yousuf <span> 1 Days ago</span></h3>
+    <p>
+        Want More videos like this
+    </p>
+    <div class="react-comments">
+        <i class="far fa-thumbs-up" ></i>
+        <i class="far fa-thumbs-down"></i>
+        <span>REPLY</span>
+    </div>
+    </div>
+</div>
+
+
+
+<div class="other-comments">
+    <img src="images/user/user4.png">
+    <div>
+        <h3>Nauman <span> 3 Days ago</span></h3>
+    <p>
+        What's the background music
+    </p>
+    <div class="react-comments">
+        <i class="far fa-thumbs-up" ></i>
+        <i class="far fa-thumbs-down"></i>
+        <span>REPLY</span>
+    </div>
+    </div>
+</div>
+
+      
+<div class="other-comments">
+    <img src="images/user/user6.png">
+    <div>
+        <h3>Shayan <span> 6 Days ago</span></h3>
+    <p>
+        Great Video
+    </p>
+    <div class="react-comments">
+        <i class="far fa-thumbs-up" ></i>
+        <i class="far fa-thumbs-down"></i>
+        <span>REPLY</span>
+    </div>
+    </div>
+</div>
+
+
+<div class="other-comments">
+    <img src="images/user/user5.png">
+    <div>
+        <h3>Faiz <span> 5 Days ago</span></h3>
+    <p>
+        Good Work
+    </p>
+    <div class="react-comments">
+        <i class="far fa-thumbs-up" ></i>
+        <i class="far fa-thumbs-down"></i>
+        <span>REPLY</span>
+    </div>
+    </div>
+</div>
+
+
+</div>
+
+
+<div class="suggested-videos">
+    <div class="buttons1" style="margin-bottom: 20px;">
+        <i ><span>lorem iaskldjasa</span></i>
+        <i ><span>randomsdasds</span></i>
+        <i ><span>ipsumf</span></i>
+        <i ><span>wise</span></i>
+      
+    </div>
+    <div class="single-suggested-video">
+        <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+     <div class="video-details">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+        <p>Abdul Wasay</p>
+        <p>31K views</p>
+    
+     </div>
+
+        </div>
+
+
+
+
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+            
+        <div class="single-suggested-video">
+            <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+         <div class="video-details">
+            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            <p>Abdul Wasay</p>
+            <p>31K views</p>
+        
+         </div>
+    
+            </div>
+
+
+
+
+
+            <div class="single-suggested-video">
+                <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+             <div class="video-details">
+                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                <p>Abdul Wasay</p>
+                <p>31K views</p>
+            
+             </div>
+        
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+                 <div class="video-details">
+                    <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                    <p>Abdul Wasay</p>
+                    <p>31K views</p>
+                
+                 </div>
+            
+                    </div>
+
+
+
+
+
+                    <div class="single-suggested-video">
+                        <a href="" class="thumbnail"><img src="images/thumbs/image1.png" alt=""></a>
+                     <div class="video-details">
+                        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        <p>Abdul Wasay</p>
+                        <p>31K views</p>
+                    
+                     </div>
+                
+                        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="index.js"></script>
+    
+</body>
+</html>
